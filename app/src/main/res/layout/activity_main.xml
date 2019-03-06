@@ -1,0 +1,199 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    style="@style/AppTheme">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/colorSecundaryText"
+        android:text="@string/qual_o_valor_em_real"
+        android:textSize="25sp"/>
+
+    <EditText
+        android:id="@+id/edit_valor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:width="150dp"
+        android:inputType="number|numberDecimal"
+        android:textColor="@color/colorSecundaryText"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/valor_do_dolar"
+                android:textColor="@color/colorSecundaryText"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:id="@+id/edit_vDolar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:width="80dp"
+                android:inputType="number|numberDecimal"
+                android:textColor="@color/colorSecundaryText"
+                android:textSize="30sp"
+                android:layout_gravity="center"
+                 />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/total_em_dolar"
+                android:textColor="@color/colorSecundaryText"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/text_tDolar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:width="80dp"
+                android:textColor="@color/colorSecundaryText"
+                android:textSize="30sp"
+                android:layout_gravity="center" />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/valor_do_euro"
+                android:textColor="@color/colorSecundaryText"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/edit_vEuro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:width="80dp"
+                android:inputType="number|numberDecimal"
+                android:textColor="@color/colorSecundaryText"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/total_em_euro"
+                android:textColor="@color/colorSecundaryText"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/text_tEuro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:width="80dp"
+                android:textColor="@color/colorSecundaryText"
+                android:textSize="30sp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/btn_calcular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="@string/calcular"
+                android:background="@color/colorAccent"
+                android:textColor="@color/colorLight" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btn_limpar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="@string/limpar"
+                android:background="@color/colorAccent"
+                android:textColor="@color/colorLight" />
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

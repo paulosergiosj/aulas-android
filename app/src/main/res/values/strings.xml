@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Conversor de Moedas</string>
+    <string name="qual_o_valor_em_real">Qual o valor em real?</string>
+    <string name="valor_do_dolar">Valor do Dolar:</string>
+    <string name="total_em_dolar">Total em Dólar:</string>
+    <string name="valor_do_euro">Valor do Euro:</string>
+    <string name="total_em_euro">Total em Euro:</string>
+    <string name="dolar">Dólar</string>
+    <string name="valor_em_euro">Valor em Euro:</string>
+    <string name="euro">Euro</string>
+    <string name="calcular">Calcular</string>
+    <string name="limpar">Limpar</string>
+</resources>
